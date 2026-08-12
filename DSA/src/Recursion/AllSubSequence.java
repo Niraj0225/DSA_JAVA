@@ -5,6 +5,7 @@ import java.util.List;
 
 public class AllSubSequence {
 
+    //include and exclude pattern
     static void getAllSequence(String s, int index, StringBuilder output,List<String> ans){
         if (index>=s.length()){
             String subSequence=output.toString();
